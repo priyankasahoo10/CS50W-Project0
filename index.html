@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Search</title>
+        <style>
+            body {
+                font-size: 14px;
+                font-family: arial,sans-serif;
+                color: #222;
+            }
+
+            .round {
+                width:auto;
+                max-width: 584px;
+                background: #fff;
+                display: flex;
+                border: 1px solid #dfe1e5;
+                box-shadow: none;
+                border-radius: 24px;
+                z-index: 3;
+                height: 44px;
+                margin: 0 auto;
+                } 
+
+            .img {
+                max-height: 100%;
+                max-width: 100%;
+                object-fit: contain;
+                object-position: center bottom;
+                width: auto;
+                height:92px;
+                }
+            
+            .button {
+                padding:10px;
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="text-align:right;">
+            <a href="D:\html\search\search\image.html">Google Image Search</a> 
+            <a href="D:\html\search\search\advanced.html">Google Advanced Search</a>
+        </div>
+        <div style="padding-top:109px;">
+        <div style="text-align:center;">
+            <img class="img" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+        </div>
+    </div>
+        <div style="text-align:center;">
+        <form action="https://google.com/search">
+            <input class="round" type="text" name="q" size=100;>
+            <input class="button" type="submit" value="Google Search" name="btnK">
+            <input class="button" type="submit" value="I'm Feeling Lucky" name="btnI">
+        </form> 
+        </div>
+    </body>
+</html>
