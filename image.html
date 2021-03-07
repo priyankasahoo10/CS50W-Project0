@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Search</title>
+        <style>
+            body {
+                font-size: 14px;
+                font-family: arial,sans-serif;
+                color: #222;
+            }
+
+            .round {
+                width:auto;
+                max-width: 584px;
+                background: #fff;
+                display: flex;
+                border: 1px solid #dfe1e5;
+                box-shadow: none;
+                border-radius: 24px;
+                z-index: 3;
+                height: 44px;
+                margin: 0 auto;
+                } 
+
+            .img {
+                max-height: 100%;
+                max-width: 100%;
+                object-fit: contain;
+                object-position: center bottom;
+                width: auto;
+                height:92px;
+                }
+            
+            .button {
+                padding:10px;
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="text-align:right;">
+            <a href="D:\\html\search\search\index.html">Google Search</a>
+        </div>
+        <div style="padding:109px;"></div>
+        <div style="text-align:center;">
+            <img class="img" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+            <span style="color:blue;position:relative;font-family: Arial, Helvetica, sans-serif;">Images</span>
+        </div>
+        <div style="text-align:center;">
+        <form action="https://www.google.com/images?">
+            <input class="round" type="text" name="q" size=100;>
+            <input class="button" type="submit" value="Image Search" name="btnK">
+        </form>
+        </div>
+    </body>
+</html>
